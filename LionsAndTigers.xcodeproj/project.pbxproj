@@ -191,6 +191,8 @@
 		64CC388E19D335FD00F2A073 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Morwamoche;
 				TargetAttributes = {
@@ -449,6 +451,7 @@
 				64CC38B719D335FD00F2A073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64CC38B819D335FD00F2A073 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +460,7 @@
 				64CC38BA19D335FD00F2A073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

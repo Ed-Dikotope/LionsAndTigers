@@ -13,14 +13,14 @@ struct Tiger {
     var name:String = "";
     var age:Int = 0;
     var breed:String = "";
-    var image:UIImage = UIImage(named: "");
+    var image:UIImage = UIImage(named: "")!;
     
     func chuff(){
-        println("chuff");
+        print("chuff");
     }
     
     func chuffANumberOfTimes(numberOfTimes:Int){
-        for i in 0...numberOfTimes {
+        for _ in 0...numberOfTimes {
             self.chuff();
         }
     }
